@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter,sans-serif;
+}
+a {
+    text-decoration: none;
+    color: rgb(49, 48, 48);
+    font-family:Century Gothic;
+}
+ul {
+    list-style: none;
+    font-size: x-large;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    /* background-color: #e3e6f3; */
+    background-color: rgb(255, 255, 255);
+    padding: 10px 60px;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav {
+    width: 100%;
+    font-size: 20px;
+    
+}
+#select {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-emphasis-color: black;
+}
+#navbar li a:hover{
+    color: #ab5621;
+}
+#navbar a img{
+    width: 250px;
+    height: 60px;
+}
+
+#banner{
+    background-image: url("img/bannr.JPEG");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#sara{
+    color: rgb(224, 164, 121);
+    margin-top: -10px;
+    margin-left: 50px;
+    margin-right: 100px;
+    padding-top: 0px;
+    text-align: center;
+    background-color: rgb(255, 243, 218);
+    height: 280px;
+    width: 600px;
+}
+.h1 {
+    font-family:Century Gothic;
+    font-size: xx-large;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+#sara b{
+    color: rgb(214, 134, 49);
+    font-size: 140px;
+    font-family: Brush Script MT;
+    line-height: 0.8;
+}
+.h2{
+    font-family:Century Gothic;
+    background-color: rgb(229, 161, 89);
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+#about{
+    background-image: url("img/about6.JPEG");
+    height: 83vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.h3{
+    font-family:Century Gothic;
+    text-align: left;
+    color: rgb(229, 161, 89);
+    font-size: xx-large;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 40px;
+    background-color: #ffffff7d;
+    background-size:contain;
+}
+
+#aboutme{
+    
+    text-align: left;
+    height: 400px;
+    width: 700px;
+    margin-left: 25px;
+}
+#aboutme p{
+    font-family:Century Gothic;
+    font-size: x-large;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+#contact{
+    background-image: url("img/contact.JPEG");
+    height: 83vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#icon i{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    line-height: 1.5;
+    margin-left: 40px;
+}
+.link{
+    color: rgba(255, 255, 255, 0.915);
+}
+#s{
+    padding-top: 10px;
+}
+p a {
+    font-weight: bolder;
+}
+.content{
+    background-image: url("img/skill.JPEG");
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #ffffff6d;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(149, 149, 149, 0.15);
+    border-radius: 15px;
+    padding: 50px;
+    margin: 30px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.icon{
+    color:rgb(229, 161, 89) ;
+    font-size: 5em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #ab5621;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.cards h2{
+    background-image: url("img/skill1.JPEG");
+    text-align: center;
+    font-size: 40px;
+    color:#ab5621dd;
+    font-family: Century Gothic;
+    padding: 10px;
+}
+@media (max-width: 1023px)
+{
+    #navbar a{
+        font-size: 10px;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        width: 60px;
+        size: 33%;
+        justify-content: center;
+    }
+    #navbar a img{
+        width: 86px;
+        height: 20px;
+        padding: 0px;
+        justify-content: center;
+    }
+    header{
+        justify-content: space-between;
+        width: 100%;
+    }
+    #banner{
+        height: 180px;
+        width: 100%;
+        justify-content: left;
+        padding: 0px;
+        padding-left: -20px;
+        margin-top: 50px;
+    }
+    #sara{
+        width: 180px;
+        height: 40px;
+        justify-self: left;
+        margin: 0px;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    h1.h1{
+        font-size: 10px;
+    }
+    #sara b{
+        font-size: 30px;
+    }
+    h2.h2{
+        font-size: 15px;
+        width: 100%;
+    }
+    #about{
+        height: 170px;
+        width: 100%;
+        justify-content: left;
+        padding: 0px;
+    }
+    #aboutme p{
+        font-size: 10px;
+        padding: 0px;
+        width: 270px;
+    }
+    h3.h3{
+        font-size: 20px;
+        padding-left: 5px;
+    }
+    .cards h2{
+        font-size: 15px;
+        width: 100%;
+        height: 20px;
+        padding: 0px;
+    }
+    .card{
+        width: 100px;
+        height: 90px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .icon {
+        font-size: 30px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .info h3{
+        font-size: 10px;
+    }
+    #contact{
+        height: 200px;
+        width: 100%;
+        justify-content: left;
+        padding: 0px;
+    }
+    #icon .link{
+        font-size: 14px;
+    }
+    #icon i{
+        font-size: 14px;
+    }
+}
